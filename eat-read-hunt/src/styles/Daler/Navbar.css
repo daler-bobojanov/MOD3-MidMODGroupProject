@@ -1,0 +1,38 @@
+nav {
+    min-height: 11vh;
+    background: black;
+    color: white;
+    padding-top: 11px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    color: white;
+}
+
+.link {
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.link:hover {
+    color: orange;
+}
+
+#nav-img {
+    width: 7vh;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+
+#nav-img:hover {
+    background-color: orange;
+    border-color: red;
+}
