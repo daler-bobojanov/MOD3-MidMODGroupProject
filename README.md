@@ -1,6 +1,12 @@
-# Jobs for software developers built using React
+# Project Name: "Eat-Read-Hunt". 
+Project Contributors: 
+-   Daler Bobojanov - [GitHub](https://github.com/daler-bobojanov);
+-   Aparna - [GitHub](https://github.com/aparna4scholas);
+-   Aleh Khvasko - [GitHub](https://github.com/AlehKhvasko);
 
-## *Which 3rd party API I'm using?*
+## This Project is built using React.
+
+## *Which 3rd party API's we used?*
 https://jobs.github.com/api
 
 ## *Problem statement (which problem I am trying to solve?)*
