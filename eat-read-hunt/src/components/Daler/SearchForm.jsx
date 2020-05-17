@@ -20,7 +20,11 @@ const SearchForm = props => (
             <input type="checkbox" name="fullTime" className="form-check-input" />
             <label htmlFor="fullTimeOnly" className="form-check-label">Full Time Only</label>
         </div>
-        <button className="btn btn-primary btn-lg">Search</button>
+        <button on className="btn btn-primary btn-lg">Search</button>
+        {/* <button class="btn btn-primary" type="button" enabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Search
+</button> */}
 
     </form>
 );
