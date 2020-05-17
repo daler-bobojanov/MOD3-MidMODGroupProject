@@ -1,10 +1,8 @@
 import React from 'react'
 import axios from 'axios';
-
-
 import '../../styles/Daler/AllJobs.css';
-
 // import SearchForm from './SearchForm';
+
 import JobDescriptionModal from './JobDescriptionModal';
 // Page scroll up button. Source code from - https://www.npmjs.com/
 import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button';
