@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
-import '../styles/AllJobs.css';
+
+import '../../styles/Daler/AllJobs.css';
 import SearchForm from './SearchForm';
 import JobDescriptionModal from './JobDescriptionModal';
 // Page scroll up button. Source code from - https://www.npmjs.com/
@@ -28,7 +29,7 @@ class Logo extends React.Component {
         try {
             const api_call = await axios.get(`${'https://cors-anywhere.herokuapp.com/'}https://jobs.github.com/positions.json?markdown=false&page=&location=${location}&description=${description}`);
             // console.log(api_call.data, "TEST");
-            this.setState({ data: api_call.data, loading: false });
+            this.setState({ data: api_call.data, loading: true });
             console.log(this.state.data, "State from Logo")
             return api_call;
         } catch (e) {

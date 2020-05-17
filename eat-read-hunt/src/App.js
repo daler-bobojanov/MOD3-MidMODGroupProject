@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Navbar from './components/Daler/Navbar';
 
 
 function App() {
   return (
     <div className="">
-      <h1>Project is Coming Here</h1>
+      <Navbar />
     </div>
   );
 }

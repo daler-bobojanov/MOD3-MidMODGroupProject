@@ -12,7 +12,7 @@
 }
 
 #input-search1 {
-    background-image: url(../assets/brief-case.png);
+    background-image: url(../../assets/Daler/brief-case.png);
     background-origin: content-box;
     background-repeat: no-repeat;
     text-indent: 30px;
@@ -20,7 +20,7 @@
 }
 
 #input-search2 {
-    background-image: url(../assets/globe-logo-black.png);
+    background-image: url(../../assets/Daler/globe-logo-black.png);
     background-origin: content-box;
     background-repeat: no-repeat;
     text-indent: 30px;

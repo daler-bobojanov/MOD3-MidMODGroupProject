@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/SearchForm.css';
+import '../../styles/Daler/SearchForm.css';
 
 const SearchForm = props => (
     // bootstrap library used to style form & elements

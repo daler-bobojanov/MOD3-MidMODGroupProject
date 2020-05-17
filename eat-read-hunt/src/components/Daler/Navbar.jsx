@@ -1,7 +1,8 @@
 import React from 'react'
-import '../styles/Navbar.css';
+import '../../styles/Daler/Navbar.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import homeBtn from '../assets/homeBtn.png';
+import homeBtn from '../../assets/Daler/homeBtn.png';
+
 
 import AllJobs from './AllJobs';
 import MySavedJobs from './MySavedJobs';

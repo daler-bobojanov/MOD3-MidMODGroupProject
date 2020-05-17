@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import '../styles/TechNews.css';
+import '../../styles/Daler/TechNews.css';
 // source https://www.npmjs.com/package/react-scroll-up-button#circle-arrow-button;
 import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button';
 import * as ReactBootStrap from 'react-bootstrap';
