@@ -1,13 +1,11 @@
 import React from 'react';
 import axios from 'axios';
-
-
 import '../../styles/Daler/AllJobs.css';
 import SearchForm from './SearchForm';
 import JobDescriptionModal from './JobDescriptionModal';
 // Page scroll up button. Source code from - https://www.npmjs.com/
 import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button';
-import * as ReactBootStrap from 'react-bootstrap';
+// import * as ReactBootStrap from 'react-bootstrap';
 
 // const BASE_URL = "https://jobs.github.com/positions.json?markdown=false&page=&location=&description=";
 // https://jobs.github.com/positions.json?markdown=false&page=&location=${location}&description=${description}
@@ -29,8 +27,8 @@ class Logo extends React.Component {
         try {
             const api_call = await axios.get(`${'https://cors-anywhere.herokuapp.com/'}https://jobs.github.com/positions.json?markdown=false&page=&location=${location}&description=${description}`);
             // console.log(api_call.data, "TEST");
-            this.setState({ data: api_call.data, loading: true });
-            console.log(this.state.data, "State from Logo")
+            api_call.data.length !== 0 ? (this.setState({ data: api_call.data, error: null })) : (this.setState({ data: [], error: "There are no results that match your search. Please modify your search parameters and try again.." }));
+
             return api_call;
         } catch (e) {
             window.alert(e);
@@ -54,7 +52,16 @@ class Logo extends React.Component {
                 <br />
                 <br />
                 {/* {this.state.loading ? (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />) : (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />)} */}
-                {postJobs}
+                {/* {this.state.error == ? (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />) : (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />)} */}
+
+
+                {this.state.data.length !== 0 ? (postJobs) : (
+                    <div class="container">
+                        <h3 class="text-muted font-italic">{this.state.error}</h3>
+                    </div>
+                )}
+                {/* {postJobs} */}
+
                 <ScrollUpButton />
             </div>
         );
