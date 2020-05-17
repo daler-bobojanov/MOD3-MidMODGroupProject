@@ -14,7 +14,7 @@ class Logo extends React.Component {
     state = {
         data: [],
         error: undefined,
-        loading: false
+        loading: undefined
     }
 
 
@@ -27,8 +27,7 @@ class Logo extends React.Component {
         try {
             const api_call = await axios.get(`${'https://cors-anywhere.herokuapp.com/'}https://jobs.github.com/positions.json?markdown=false&page=&location=${location}&description=${description}`);
             // console.log(api_call.data, "TEST");
-            api_call.data.length !== 0 ? (this.setState({ data: api_call.data, error: null })) : (this.setState({ data: [], error: "There are no results that match your search. Please modify your search parameters and try again.." }));
-
+            api_call.data.length !== 0 ? (this.setState({ data: api_call.data, error: null, loading: true })) : (this.setState({ data: [], loading: true, error: "There are no results that match your search. Please modify your search parameters and try again.." }));
             return api_call;
         } catch (e) {
             window.alert(e);
@@ -51,13 +50,12 @@ class Logo extends React.Component {
                 <SearchForm searchJobs={this.searchJobs} />
                 <br />
                 <br />
-                {/* {this.state.loading ? (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />) : (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />)} */}
-                {/* {this.state.error == ? (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />) : (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />)} */}
 
+                {/* {this.state.loading === undefined ? (postJobs) : (<ReactBootStrap.Spinner animation="border" variant="primary" />)} */}
 
                 {this.state.data.length !== 0 ? (postJobs) : (
-                    <div class="container">
-                        <h3 class="text-muted font-italic">{this.state.error}</h3>
+                    <div className="container">
+                        <h3 className="text-muted font-italic">{this.state.error}</h3>
                     </div>
                 )}
                 {/* {postJobs} */}
@@ -69,3 +67,4 @@ class Logo extends React.Component {
 };
 
 export default Logo;
+
