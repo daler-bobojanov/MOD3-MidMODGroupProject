@@ -26,11 +26,11 @@ The target users are developers looking for employment in the software developme
 
 ## *Wireframe:*
 - COMING SOON
-![0. ComponentsLegend](https://)
+<!-- ![0. ComponentsLegend](https://)
 
 ![1. Login(LandingPage)](https://)
 
 ![2. HomePage](https://)
 
-![3. SavedJobsPage](https://)
+![3. SavedJobsPage](https://) -->
 
