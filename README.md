@@ -25,7 +25,7 @@ The target users are developers looking for employment in the software developme
 ! APARNA ADD YOUR STATEMENT HERE !
 
 ## *Wireframe:*
-- COMING SOON
+- COMING SOON..
 <!-- ![0. ComponentsLegend](https://)
 
 ![1. Login(LandingPage)](https://)
