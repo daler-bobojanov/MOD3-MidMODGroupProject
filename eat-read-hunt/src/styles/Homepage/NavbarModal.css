@@ -1,0 +1,73 @@
+#navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    /* border: 1px orange solid; */
+    width: 2.5%;
+    margin-left: 220px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+/* #navigation > label {
+    font-size: small;
+} */
+
+#navigation:hover{
+transform: rotate(90deg);
+transition-timing-function: ease-in-out;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 2000ms ease-in-out;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.91);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+.hamburger {
+    border: 2px black solid;
+    margin: 3px;
+    padding: 0;
+}
+
+#homepage-modal-header {
+  border-bottom: 0.5px solid #5e5e5e;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#closebtn {
+    font-size: 35px;
+    display: inline-block;
+    line-height: 40px;
+    color: white;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#homebtn {
+    font-size: 25px;
+    padding-right: 40px;
+    /* display: inline-block; */
+    line-height: 40px;
+    color: white;
+    vertical-align: middle;
+    cursor: pointer;
+}

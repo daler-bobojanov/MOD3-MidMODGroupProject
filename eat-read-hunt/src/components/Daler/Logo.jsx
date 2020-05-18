@@ -46,7 +46,9 @@ class Logo extends React.Component {
             </div>
         ))
         return (
-            <div>
+            <div id="jobs">
+
+                <hr />
                 <SearchForm searchJobs={this.searchJobs} />
                 <br />
                 <br />

@@ -49,7 +49,8 @@ class TechNews extends React.Component {
         ))
         return (
             <React.Fragment>
-                <div>
+                <div id="technews">
+                    <hr />
                     <h1 id="headline-h1">Today's Top Headlines</h1>
                 </div>
                 <div className="news-grid-container">

@@ -48,11 +48,11 @@ class AllJobs extends React.Component {
             </div>
         ))
         return (
-            <React.Fragment>
+            <div id="alljobs">
                 <hr /><br />
                 {this.state.loading ? (postJobs) : (<ReactBootStrap.Spinner animation="border" variant="primary" style={{ marginLeft: '50%' }} />)}
                 <ScrollUpButton />
-            </React.Fragment >
+            </div >
         );
     }
 }
