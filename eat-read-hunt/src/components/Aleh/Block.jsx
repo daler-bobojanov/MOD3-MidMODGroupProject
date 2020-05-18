@@ -85,8 +85,8 @@ const StyledCal = styled.div`
 export default function Block({info}) {
 
     const[visible,setVisible]= useState(false);
-
     const {label,image,url, ingredients,calories} = info.recipe;
+    
     return (
     <BlockStyled>
         <NameStyled>{label.length < 20 ? label : label.substring(0,20)+ '...'}</NameStyled>

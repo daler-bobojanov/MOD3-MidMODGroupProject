@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './App.css';
 import axios from 'axios';
 import SearchForm from './components/Aleh/SearchForm';
 import Button from './components/Aleh/Button';
@@ -32,7 +31,9 @@ const onSubmitHandler = async(event) => {
   }
 }
 /// *********************************
-
+const onChangeHandler = (event) => {
+  setSomeData(event.target.value);
+}
 ////This section is for styles, imported from styled-components
 
 const Title = styled.h1`
@@ -70,11 +71,24 @@ const StyledHeader = styled.div`
     width:100vw;
     margin:0;
 `
+const StyledTitle = styled.div`
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color:rgba(0,0,0,0.4);
+  border:2px solid black;
+  margin:40px auto 100px auto;
+  width:40%;
+  height:10vh;
+  box-shadow:10px 10px 2px black;
+`
+
 ///*********************************** */
 
   return (
-    <div className="">
+    <div className="App">
       <h1>Project is Coming Here</h1>
+{/*  Receipe App imported  *****************************/}
       <StyledHeader>
             <Link to="/"> Home</Link>
             <Link to="/top"> Top 5 recipes</Link>
@@ -95,6 +109,7 @@ const StyledHeader = styled.div`
             )}
             </Grid>
         </div >
+{/* *********************************************** */}
     </div>
   );
 }

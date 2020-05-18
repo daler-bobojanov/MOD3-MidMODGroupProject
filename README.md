@@ -26,8 +26,3 @@ My app is for all people who who have passion in cooking,who want to try somethi
 ! APARNA ADD YOUR STATEMENT HERE !
 
 ## *Wireframe:*
-
-<p align="center">
-  <img src="./src/assets/Aleh/image1.png" width="350" title="Wireframe">
-  <img src="./src/assets/Aleh/image2.png" width="350" alt="no image ">
-</p>
