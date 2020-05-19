@@ -22,11 +22,11 @@ Project Contributors:
 ## *Target users (who are the people whose problem we are trying to solve?)*
 - The target users are developers looking for employment in the software development field, available around the globe.
 
-- ! ALEH ADD YOUR STATEMENT HERE !
-My app is for all people who have passion in cooking, who want to try something new, who stucked at home and who would like to spend their time with pleasure of cooking.
+! ALEH ADD YOUR STATEMENT HERE !
+- My app is for all people who have passion in cooking, who want to try something new, who stucked at home and who would like to spend their time with pleasure of cooking.
 
-- ! APARNA ADD YOUR STATEMENT HERE !
-Search the world's most comprehensive index of full-text books. 
+ ! APARNA ADD YOUR STATEMENT HERE !
+- Search the world's most comprehensive index of full-text books. 
 
 ## *Wireframe:*
 
