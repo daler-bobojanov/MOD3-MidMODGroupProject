@@ -8,7 +8,10 @@ import NavbarModal from './components/Homepage/NavbarModal';
 
 // Aleh's App imports
 import AlehApp from './components/Aleh/App';
+//=============================================================
 
+// Aparna's App imports
+import AparnaApp from './components/Aparna/App';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
 
       {/* Aleh's App */}
       {/* <AlehApp /> */}
+
+      {/* Aparna's App */}
+      {/* <AparnaApp /> */}
     </div>
   );
 }

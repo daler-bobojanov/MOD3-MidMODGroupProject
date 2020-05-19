@@ -17,6 +17,11 @@ import HomePage from '../Homepage/HomePage';
 import Top from '../Aleh/Top';
 import Motivation from '../Aleh/Motivation';
 import App from '../Aleh/App';
+// ================================================================
+// Aparna's App imports
+import Books from '../Aparna/Books';
+import Savebooks from '../Aparna/Savebooks';
+import Search from '../Aparna/Search';
 
 class Navbar extends React.Component {
     // function to Refresh the page upon Home button click
@@ -59,6 +64,10 @@ class Navbar extends React.Component {
                     <Route exact path="/searchrecipe" component={App} />
                     <Route exact path="/top" component={Top} />
                     <Route exact path="/motivation" component={Motivation} />
+
+                    <Route exact path="/books" component={Books} />
+                    <Route exact path="/savebooks" component={Savebooks} />
+                    <Route exact path="/search" component={Search} />
                 </Switch>
             </Router>
         );

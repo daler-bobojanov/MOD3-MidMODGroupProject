@@ -11,6 +11,8 @@ import top5Recipes from '../../assets/Aleh/top5recipes.png';
 import letsCook from '../../assets/Aleh/letscook.png';
 
 import book from '../../assets/Aparna/book.png';
+import bookCollection from '../../assets/Aparna/bookcollection.png';
+import favorites from '../../assets/Aparna/favorites.png';
 
 const NavBarMondalContent = () => {
     // const [dalerBlockActive, setDalerBlockActive] = useState(false);
@@ -126,28 +128,27 @@ const NavBarMondalContent = () => {
                         <div className="infos">
                             <img src={book} alt="no image" width='135px' height='135px' />
                             <article className="info">
-                                <Link className="link" to="/searchjobs/#jobs" target="_top">
-                                    <p>Choose what you’d like to learn from our extensive library.</p>
-                                    <p>Search your book..</p>
-                                    <p>Aparna Block 1</p>
+                                <Link className="link" to="/search" target="_top">
+                                    <p>Search your favorite book..</p>
+                                    {/* <p>Aparna Block 1</p> */}
                                 </Link>
                             </article>
                         </div>
 
                         <div className="infos">
-                            <img src={jobSearch} alt="no image" width='135px' height='135px' />
+                            <img src={bookCollection} alt="no image" width='135px' height='135px' />
                             <article className="info">
-                                <Link className="link" to="/alljobs/#alljobs" target="_top">
-                                    <p>Aparna Block 2</p>
+                                <Link className="link" to="/books" target="_top">
+                                    <p>Books Collection..</p>
                                 </Link>
                             </article>
                         </div>
 
                         <div className="infos">
-                            <img src={techNews} alt="no image" width='135px' height='135px' />
+                            <img src={favorites} alt="no image" width='135px' height='135px' />
                             <article className="info">
-                                <Link className="link" to="/technews/#technews" target="_top">
-                                    <p>Aparna Block 3</p>
+                                <Link className="link" to="/savebooks" target="_top">
+                                    <p>Save your books from "Books Collection" and access them here..</p>
                                 </Link>
                             </article>
                         </div>
