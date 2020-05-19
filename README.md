@@ -27,12 +27,10 @@ Project Contributors:
 - ! APARNA ADD YOUR STATEMENT HERE !
 
 ## *Wireframe:*
-- COMING SOON..
-<!-- ![0. ComponentsLegend](https://)
 
-![1. Login(LandingPage)](https://)
+![0. LandingPage](https://https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image1.png)
 
-![2. HomePage](https://)
+![1. Navbar(Menu)](https://https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image2.png)
 
-![3. SavedJobsPage](https://) -->
+
 
