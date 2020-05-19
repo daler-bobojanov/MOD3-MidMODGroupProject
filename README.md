@@ -28,9 +28,9 @@ Project Contributors:
 
 ## *Wireframe:*
 
-![0. LandingPage](https://https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image1.png)
+![0. LandingPage](https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image1.png)
 
-![1. Navbar(Menu)](https://https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image2.png)
+![1. Navbar(Menu)](https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image2.png)
 
 
 
