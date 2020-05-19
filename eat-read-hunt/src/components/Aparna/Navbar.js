@@ -19,10 +19,7 @@ return(
        <Link  style={navStyle} to='/Savebooks'>
        <li> Favbook</li>
        </Link>
-       <Link style={navStyle} to='Search'>
-       <li> Search</li>
-       </Link >
-        </ul>
+
 </nav>
  
 
