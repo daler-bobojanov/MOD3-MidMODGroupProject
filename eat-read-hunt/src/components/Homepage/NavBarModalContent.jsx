@@ -1,45 +1,16 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
-import recipe from '../../assets/Homepage/chorizo-mozarella-gnocchi-bake-cropped.png';
-import book from '../../assets/Homepage/book.png';
 import findJob from '../../assets/Daler/findjob.png';
 import jobSearch from '../../assets/Homepage/jobSearch.png';
 import techNews from '../../assets/Daler/technews.png';
 import '../../styles/Homepage/NavBarModalContent.scss';
 
-import Navbar from '../../components/Daler/Navbar';
 
 const NavBarMondalContent = () => {
-    {/*
-    const hideBlock = (e) => {
-        e.preventDefault();
-        const dalersBlock = document.getElementById('daler-block');
-        const alehsBlock = document.getElementById('aleh-block');
-        const aparnasBlock = document.getElementById('aparna-block');
-        if (dalersBlock.style.display === 'none' && alehsBlock.style.display === 'none' && aparnasBlock.style.display === 'none' && document.getElementById("db-li").innerHTML === 'DALER') {
-            // alehsBlock.style.display = 'flex';
-            dalersBlock.style.display = 'flex';
-            // aparnasBlock.style.display = 'none';
-        } else if (dalersBlock.style.display === 'none' && alehsBlock.style.display === 'none' && aparnasBlock.style.display === 'none' && document.getElementById("ak-li").innerHTML === 'ALEH') {
-            // dalersBlock.style.display = 'none';
-            // aparnasBlock.style.display = 'flex';
-            alehsBlock.style.display = 'flex';
-        } else if (dalersBlock.style.display === 'none' && alehsBlock.style.display === 'none' && aparnasBlock.style.display === 'none' && document.getElementById("ap-li").innerHTML === 'APARNA') {
-            // dalersBlock.style.display = 'none';
-            // alehsBlock.style.display = 'none';
-            aparnasBlock.style.display = 'flex';
-        } else {
-            window.alert("error")
-            // dalersBlock.style.display = 'flex';
-            // alehsBlock.style.display = 'flex';
-            // aparnasBlock.style.display = 'flex';
-        }
-    }
-*/}
-    const [dalerBlockActive, setDalerBlockActive] = useState(false);
-    const [alehBlockActive, setAlehBlockActive] = useState(false);
-    const [aparnaBlockActive, setAparnaBlockActive] = useState(false);
+    // const [dalerBlockActive, setDalerBlockActive] = useState(false);
+    // const [alehBlockActive, setAlehBlockActive] = useState(false);
+    // const [aparnaBlockActive, setAparnaBlockActive] = useState(false);
 
     function hideDalerAndAparnaBlocks() {
         document.getElementById('daler-block').style.display = 'none';
@@ -73,7 +44,7 @@ const NavBarMondalContent = () => {
                     {/* {dalerBlockActive ? */}
                     <div className="rightContainer" id="daler-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={findJob} alt="no image" width='135px' height='135px' />
+                            <img src={findJob} alt="find-job" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
                                     <p> Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies. Your Dream Job Is Waiting To Apply To Interview You.</p>
@@ -84,7 +55,7 @@ const NavBarMondalContent = () => {
 
 
                         <div className="infos">
-                            <img src={jobSearch} alt="no image" width='135px' height='135px' />
+                            <img src={jobSearch} alt="career-challenge" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/alljobs/#alljobs" target="_top">
                                     <p>List All Available Jobs</p>
@@ -94,7 +65,7 @@ const NavBarMondalContent = () => {
 
 
                         <div className="infos">
-                            <img src={techNews} alt="no image" width='135px' height='135px' />
+                            <img src={techNews} alt="tech-news" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/technews/#technews" target="_top">
                                     <p>The latest in technology and company news</p>

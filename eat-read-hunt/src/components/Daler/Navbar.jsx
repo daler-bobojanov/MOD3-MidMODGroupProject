@@ -1,6 +1,6 @@
 import React from 'react'
 // import '../../styles/Daler/Navbar.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import homeBtn from '../../assets/Daler/homeBtn.png';
 
 

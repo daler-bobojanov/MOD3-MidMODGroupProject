@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import HomePage from './HomePage';
+// import HomePage from './HomePage';
 import NavBarModalContent from './NavBarModalContent';
-import Navbar from '../Daler/Navbar';
+// import Navbar from '../Daler/Navbar';
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
-import AllJobs from '../Daler/AllJobs';
-import MySavedJobs from '../Daler/MySavedJobs';
-import Logo from '../Daler/Logo';
-import TechNews from '../Daler/TechNews';
+// import AllJobs from '../Daler/AllJobs';
+// import MySavedJobs from '../Daler/MySavedJobs';
+// import Logo from '../Daler/Logo';
+// import TechNews from '../Daler/TechNews';
 
 import '../../styles/Homepage/NavbarModal.css';
 
