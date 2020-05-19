@@ -6,6 +6,11 @@ import jobSearch from '../../assets/Homepage/jobSearch.png';
 import techNews from '../../assets/Daler/technews.png';
 import '../../styles/Homepage/NavBarModalContent.scss';
 
+import findRecipes from '../../assets/Aleh/q&eRecipes.png';
+import top5Recipes from '../../assets/Aleh/top5recipes.png';
+import letsCook from '../../assets/Aleh/letscook.png';
+
+import book from '../../assets/Aparna/book.png';
 
 const NavBarMondalContent = () => {
     // const [dalerBlockActive, setDalerBlockActive] = useState(false);
@@ -47,8 +52,9 @@ const NavBarMondalContent = () => {
                             <img src={findJob} alt="find-job" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
-                                    <p> Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies. Your Dream Job Is Waiting To Apply To Interview You.</p>
-                                    <p>Search jobs</p>
+                                    <p>Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies.</p>
+                                    <p>Your Dream Job Is Waiting To Apply To Interview You.</p>
+                                    {/* <p>Search jobs</p> */}
                                 </Link>
                             </article>
                         </div>
@@ -80,28 +86,32 @@ const NavBarMondalContent = () => {
                     {/* {alehBlockActive ? */}
                     <div className="rightContainer" id="aleh-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={findJob} alt="no image" width='135px' height='135px' />
+                            <img src={findRecipes} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
-                                    <p> Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies. Your Dream Job Is Waiting To Apply To Interview You.</p>
+                                    <p>Looking to develop your own cooking and food? Look no further!</p>
+                                    <p>Click for more!</p>
                                     <p>ALeh Block 1</p>
                                 </Link>
                             </article>
                         </div>
 
                         <div className="infos">
-                            <img src={jobSearch} alt="no image" width='135px' height='135px' />
+                            <img src={top5Recipes} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/alljobs/#alljobs" target="_top">
+                                    <p>Each recipe has a brief description, directions, a list of tips, and nutritional information.</p>
                                     <p>ALeh Block 2</p>
                                 </Link>
                             </article>
                         </div>
 
                         <div className="infos">
-                            <img src={techNews} alt="no image" width='135px' height='135px' />
+                            <img src={letsCook} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/technews/#technews" target="_top">
+                                    <p>Why home cooking?</p>
+                                    <p>You asked, We answered!</p>
                                     <p>ALeh Block 3</p>
                                 </Link>
                             </article>
@@ -114,10 +124,11 @@ const NavBarMondalContent = () => {
                     {/* {aparnaBlockActive ? */}
                     <div className="rightContainer" id="aparna-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={findJob} alt="no image" width='135px' height='135px' />
+                            <img src={book} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
-                                    <p> Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies. Your Dream Job Is Waiting To Apply To Interview You.</p>
+                                    <p>Choose what you’d like to learn from our extensive library.</p>
+                                    <p>Search your book..</p>
                                     <p>Aparna Block 1</p>
                                 </Link>
                             </article>
