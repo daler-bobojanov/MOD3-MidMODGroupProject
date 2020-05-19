@@ -41,7 +41,18 @@ const NavBarMondalContent = () => {
     const [alehBlockActive, setAlehBlockActive] = useState(false);
     const [aparnaBlockActive, setAparnaBlockActive] = useState(false);
 
-
+    function hideDalerAndAparnaBlocks() {
+        document.getElementById('daler-block').style.display = 'none';
+        document.getElementById('aparna-block').style.display = 'none';
+    }
+    function hideAlehAndAparnaBlocks() {
+        document.getElementById('aleh-block').style.display = 'none';
+        document.getElementById('aparna-block').style.display = 'none';
+    }
+    function hideDalerAndAlehBlocks() {
+        document.getElementById('daler-block').style.display = 'none';
+        document.getElementById('aleh-block').style.display = 'none';
+    }
     return (
         <Router>
             <div className="mainContainer">
@@ -49,11 +60,11 @@ const NavBarMondalContent = () => {
                     {/* <div id="chapter-text"><span>PAGE NAVIGATION</span></div> */}
                     {/* onMouseOver={() => setDalerBlockActive(!dalerBlockActive)} */}
                     <ul id="modal-chapter-titles">
-                        <li id="db-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('daler-block').style.display = 'grid'} >DALER</li>
+                        <li id="db-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('daler-block').style.display = 'grid'} onMouseLeave={() => hideAlehAndAparnaBlocks()}>DALER</li>
 
-                        <li id="ak-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aleh-block').style.display = 'grid'}>ALEH</li>
+                        <li id="ak-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aleh-block').style.display = 'grid'} onMouseLeave={() => hideDalerAndAparnaBlocks()}>ALEH</li>
 
-                        <li id="ap-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aparna-block').style.display = 'grid'}>APARNA</li>
+                        <li id="ap-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aparna-block').style.display = 'grid'} onMouseLeave={() => hideDalerAndAlehBlocks()}>APARNA</li>
                     </ul>
                 </div>
 
