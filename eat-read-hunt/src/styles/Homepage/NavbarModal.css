@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Sriracha&display=swap');
+
 #navigation {
     display: flex;
     flex-direction: column;
@@ -46,11 +48,12 @@ transition-timing-function: ease-in-out;
 #homepage-modal-header {
   border-bottom: 0.5px solid #5e5e5e;
   padding-top: 3%;
-  padding-bottom: 3%;
+  /* padding-bottom: 1%; */
   width: 92%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  /* border: 1px blue solid; */
 }
 
 #closebtn {
@@ -70,4 +73,17 @@ transition-timing-function: ease-in-out;
     color: white;
     vertical-align: middle;
     cursor: pointer;
+}
+
+#chapter-text {
+    text-align: center;
+    /* border: 1px red solid; */
+    height: 100%;
+    margin-top: 45px;
+    font-size: 30px;
+    line-height: 1.8em;
+    /* font-weight: 100; */
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: 10px;
 }

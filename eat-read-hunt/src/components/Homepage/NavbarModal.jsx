@@ -68,13 +68,19 @@ const NavbarModal = (props) => {
                 }
             >
                 <Router>
+
                     <div id="homepage-modal-header">
                         <div id="closebtn" onClick={() => setmodalIsOpen(false)}>X</div>
-
+                        <div id="chapter-text"><span>SITE NAVIGATION</span></div>
                         <Link className="link" to="/" target="_top">
                             <div id="homebtn"> Home</div>
                         </Link>
                     </div>
+
+
+
+
+
                 </Router>
                 <NavBarModalContent />
                 {/* <Router>
@@ -100,7 +106,7 @@ const NavbarModal = (props) => {
                     </nav>
                     <Router /> */}
 
-            </Modal>
+            </Modal >
         </React.Fragment >
     );
 }
