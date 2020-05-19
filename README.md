@@ -9,7 +9,7 @@ Project Contributors:
 ## *Which 3rd party API's we used?*
 - https://jobs.github.com/api;
 - https://newsapi.org;
-- ! ALEH ADD YOUR APIs !
+- https://developer.nutritionix.com/
 - https://bookauthority.org/api;
 
 ## *Problem statement (which problem we tried to solve?)*
@@ -22,9 +22,11 @@ Project Contributors:
 ## *Target users (who are the people whose problem we are trying to solve?)*
 - The target users are developers looking for employment in the software development field, available around the globe.
 
+- ! ALEH ADD YOUR STATEMENT HERE !
 - My app is for all people who have passion in cooking, who want to try something new, who stucked at home and who would like to spend their time with pleasure of cooking.
 
 - ! APARNA ADD YOUR STATEMENT HERE !
+- Search the world's most comprehensive index of full-text books. 
 
 ## *Wireframe:*
 
