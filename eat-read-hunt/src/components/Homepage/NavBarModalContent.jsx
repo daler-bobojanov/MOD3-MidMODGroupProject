@@ -36,11 +36,11 @@ const NavBarMondalContent = () => {
                     {/* <div id="chapter-text"><span>PAGE NAVIGATION</span></div> */}
                     {/* onMouseOver={() => setDalerBlockActive(!dalerBlockActive)} */}
                     <ul id="modal-chapter-titles">
-                        <li id="db-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('daler-block').style.display = 'grid'} onMouseLeave={() => hideAlehAndAparnaBlocks()}>DALER</li>
+                        <li id="db-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('daler-block').style.display = 'grid'} onMouseLeave={() => hideAlehAndAparnaBlocks()}>JOB SEARCH</li>
 
-                        <li id="ak-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aleh-block').style.display = 'grid'} onMouseLeave={() => hideDalerAndAparnaBlocks()}>ALEH</li>
+                        <li id="ak-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aleh-block').style.display = 'grid'} onMouseLeave={() => hideDalerAndAparnaBlocks()}>RECIPES</li>
 
-                        <li id="ap-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aparna-block').style.display = 'grid'} onMouseLeave={() => hideDalerAndAlehBlocks()}>APARNA</li>
+                        <li id="ap-li" className="chapter-highlighted" onMouseOver={() => document.getElementById('aparna-block').style.display = 'grid'} onMouseLeave={() => hideDalerAndAlehBlocks()}>BOOK STORE</li>
                     </ul>
                 </div>
 
@@ -88,10 +88,10 @@ const NavBarMondalContent = () => {
                         <div className="infos">
                             <img src={findRecipes} alt="no image" width='135px' height='135px' />
                             <article className="info">
-                                <Link className="link" to="/searchjobs/#jobs" target="_top">
+                                <Link className="link" to="/searchrecipe" target="_top">
                                     <p>Looking to develop your own cooking and food? Look no further!</p>
                                     <p>Click for more!</p>
-                                    <p>ALeh Block 1</p>
+                                    {/* <p>ALeh Block 1</p> */}
                                 </Link>
                             </article>
                         </div>
@@ -99,9 +99,9 @@ const NavBarMondalContent = () => {
                         <div className="infos">
                             <img src={top5Recipes} alt="no image" width='135px' height='135px' />
                             <article className="info">
-                                <Link className="link" to="/alljobs/#alljobs" target="_top">
+                                <Link className="link" to="/top" target="_top">
                                     <p>Each recipe has a brief description, directions, a list of tips, and nutritional information.</p>
-                                    <p>ALeh Block 2</p>
+                                    {/* <p>ALeh Block 2</p> */}
                                 </Link>
                             </article>
                         </div>
@@ -109,10 +109,10 @@ const NavBarMondalContent = () => {
                         <div className="infos">
                             <img src={letsCook} alt="no image" width='135px' height='135px' />
                             <article className="info">
-                                <Link className="link" to="/technews/#technews" target="_top">
+                                <Link className="link" to="/motivation" target="_top">
                                     <p>Why home cooking?</p>
                                     <p>You asked, We answered!</p>
-                                    <p>ALeh Block 3</p>
+                                    {/* <p>ALeh Block 3</p> */}
                                 </Link>
                             </article>
                         </div>

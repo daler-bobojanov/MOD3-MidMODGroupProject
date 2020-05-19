@@ -1,8 +1,8 @@
-import React from 'react'
+// Daler's App imports
+import React from 'react';
 // import '../../styles/Daler/Navbar.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import homeBtn from '../../assets/Daler/homeBtn.png';
-
 
 import AllJobs from './AllJobs';
 import MySavedJobs from './MySavedJobs';
@@ -12,6 +12,11 @@ import TechNews from './TechNews';
 // import UserName from './UserName';
 // import SearchForm from './SearchForm';
 import HomePage from '../Homepage/HomePage';
+// ================================================================
+// Aleh's App imports
+import Top from '../Aleh/Top';
+import Motivation from '../Aleh/Motivation';
+import App from '../Aleh/App';
 
 class Navbar extends React.Component {
     // function to Refresh the page upon Home button click
@@ -49,6 +54,11 @@ class Navbar extends React.Component {
                     <Route exact path='/alljobs' component={AllJobs} />
                     <Route exact path='/mysavedjobs' component={MySavedJobs} />
                     <Route exact path="/technews" component={TechNews} />
+
+
+                    <Route exact path="/searchrecipe" component={App} />
+                    <Route exact path="/top" component={Top} />
+                    <Route exact path="/motivation" component={Motivation} />
                 </Switch>
             </Router>
         );

@@ -1,9 +1,14 @@
+// Daler's App imports
 import React from 'react';
 import Navbar from './components/Daler/Navbar';
 import NavbarModal from './components/Homepage/NavbarModal';
 // import HomePage from './components/Homepage/HomePage';
-
 // import MySavedJobs from './components/Daler/MySavedJobs';
+// ===========================================================
+
+// Aleh's App imports
+import AlehApp from './components/Aleh/App';
+
 
 function App() {
   return (
@@ -12,6 +17,9 @@ function App() {
       {/* <MySavedJobs /> */}
       {/* <HomePage /> */}
       <Navbar />
+
+      {/* Aleh's App */}
+      {/* <AlehApp /> */}
     </div>
   );
 }
