@@ -73,7 +73,7 @@ const NavBarMondalContent = () => {
                     {/* {dalerBlockActive ? */}
                     <div className="rightContainer" id="daler-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={findJob} alt="no image" width='120px' height='120px' />
+                            <img src={findJob} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
                                     <p> Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies. Your Dream Job Is Waiting To Apply To Interview You.</p>
@@ -84,7 +84,7 @@ const NavBarMondalContent = () => {
 
 
                         <div className="infos">
-                            <img src={jobSearch} alt="no image" width='120px' height='120px' />
+                            <img src={jobSearch} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/alljobs/#alljobs" target="_top">
                                     <p>List All Available Jobs</p>
@@ -94,7 +94,7 @@ const NavBarMondalContent = () => {
 
 
                         <div className="infos">
-                            <img src={techNews} alt="no image" width='120px' height='120px' />
+                            <img src={techNews} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/technews/#technews" target="_top">
                                     <p>The latest in technology and company news</p>
@@ -109,7 +109,7 @@ const NavBarMondalContent = () => {
                     {/* {alehBlockActive ? */}
                     <div className="rightContainer" id="aleh-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={findJob} alt="no image" width='120px' height='120px' />
+                            <img src={findJob} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
                                     <p> Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies. Your Dream Job Is Waiting To Apply To Interview You.</p>
@@ -119,7 +119,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={jobSearch} alt="no image" width='120px' height='120px' />
+                            <img src={jobSearch} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/alljobs/#alljobs" target="_top">
                                     <p>ALeh Block 2</p>
@@ -128,7 +128,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={techNews} alt="no image" width='120px' height='120px' />
+                            <img src={techNews} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/technews/#technews" target="_top">
                                     <p>ALeh Block 3</p>
@@ -143,7 +143,7 @@ const NavBarMondalContent = () => {
                     {/* {aparnaBlockActive ? */}
                     <div className="rightContainer" id="aparna-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={findJob} alt="no image" width='120px' height='120px' />
+                            <img src={findJob} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
                                     <p> Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies. Your Dream Job Is Waiting To Apply To Interview You.</p>
@@ -153,7 +153,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={jobSearch} alt="no image" width='120px' height='120px' />
+                            <img src={jobSearch} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/alljobs/#alljobs" target="_top">
                                     <p>Aparna Block 2</p>
@@ -162,7 +162,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={techNews} alt="no image" width='120px' height='120px' />
+                            <img src={techNews} alt="no image" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/technews/#technews" target="_top">
                                     <p>Aparna Block 3</p>
