@@ -1,6 +1,6 @@
 import React from 'react';
 import MotivationStateless from './MotivationStateless';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button';
 
@@ -16,6 +16,7 @@ const StyledMain = styled.div`
     background-size:cover;
 
 `
+/*
 const StyledHeader = styled.div`
     display: flex;
     justify-content:space-evenly;
@@ -25,6 +26,9 @@ const StyledHeader = styled.div`
     font-size:1.5rem;
     border:4px solid black;
 `
+*/
+
+/*
 const ButtonStyled = styled.button`
     display: flex;
     justify-content:center;
@@ -49,7 +53,7 @@ const ButtonStyled = styled.button`
    
 }
 `;
-
+*/
 
 export default function Motivation() {
     return (
