@@ -47,12 +47,10 @@ class Logo extends React.Component {
         ))
         return (
             <div id="jobs">
-
                 <hr />
                 <SearchForm searchJobs={this.searchJobs} />
                 <br />
                 <br />
-
                 {/* {this.state.loading === undefined ? (postJobs) : (<ReactBootStrap.Spinner animation="border" variant="primary" />)} */}
 
                 {this.state.data.length !== 0 ? (postJobs) : (
@@ -61,7 +59,6 @@ class Logo extends React.Component {
                     </div>
                 )}
                 {/* {postJobs} */}
-
                 <ScrollUpButton />
             </div>
         );
