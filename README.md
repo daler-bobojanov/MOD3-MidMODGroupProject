@@ -7,7 +7,7 @@ Project Contributors:
 # This Project is built using React JS.
 
 ## Publicly Deployed Website:
-[eat-read-hunt.surge.sh](https://eat-read-hunt.surge.sh/);
+[https://eat-read-hunt.surge.sh/](https://eat-read-hunt.surge.sh/)
 
 ## *Which 3rd party API's we used?*
 - https://jobs.github.com/api;
