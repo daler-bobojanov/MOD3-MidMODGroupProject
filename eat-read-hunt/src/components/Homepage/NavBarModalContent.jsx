@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import '../../styles/Homepage/NavBarModalContent.scss';
 
 import findJob from '../../assets/Daler/findjob.png';
-import jobSearch from '../../assets/Homepage/jobSearch.png';
+import jobSearch from '../../assets/Daler/jobSearch.png';
 import techNews from '../../assets/Daler/technews.png';
-import '../../styles/Homepage/NavBarModalContent.scss';
 
 import findRecipes from '../../assets/Aleh/q&eRecipes.png';
 import top5Recipes from '../../assets/Aleh/top5recipes.png';
@@ -56,7 +56,6 @@ const NavBarMondalContent = () => {
                                 <Link className="link" to="/searchjobs/#jobs" target="_top">
                                     <p>Take the Stress Out Of Your Job Search With Great Opportunities At Innovative Companies.</p>
                                     <p>Your Dream Job Is Waiting To Apply To Interview You.</p>
-                                    {/* <p>Search jobs</p> */}
                                 </Link>
                             </article>
                         </div>
@@ -88,7 +87,7 @@ const NavBarMondalContent = () => {
                     {/* {alehBlockActive ? */}
                     <div className="rightContainer" id="aleh-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={findRecipes} alt="no image" width='135px' height='135px' />
+                            <img src={findRecipes} alt="find-recipes" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/searchrecipe" target="_top">
                                     <p>Looking to develop your own cooking and food? Look no further!</p>
@@ -99,7 +98,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={top5Recipes} alt="no image" width='135px' height='135px' />
+                            <img src={top5Recipes} alt="top-5-recipes" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/top" target="_top">
                                     <p>Each recipe has a brief description, directions, a list of tips, and nutritional information.</p>
@@ -109,7 +108,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={letsCook} alt="no image" width='135px' height='135px' />
+                            <img src={letsCook} alt="why-to-cook" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/motivation" target="_top">
                                     <p>Why home cooking?</p>
@@ -126,7 +125,7 @@ const NavBarMondalContent = () => {
                     {/* {aparnaBlockActive ? */}
                     <div className="rightContainer" id="aparna-block" style={{ display: 'none' }}>
                         <div className="infos">
-                            <img src={book} alt="no image" width='135px' height='135px' />
+                            <img src={book} alt="open-book" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/search" target="_top">
                                     <p>Search your favorite book..</p>
@@ -136,7 +135,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={bookCollection} alt="no image" width='135px' height='135px' />
+                            <img src={bookCollection} alt="book-stack" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/books" target="_top">
                                     <p>Books Collection..</p>
@@ -145,7 +144,7 @@ const NavBarMondalContent = () => {
                         </div>
 
                         <div className="infos">
-                            <img src={favorites} alt="no image" width='135px' height='135px' />
+                            <img src={favorites} alt="my-favorites" width='135px' height='135px' />
                             <article className="info">
                                 <Link className="link" to="/savebooks" target="_top">
                                     <p>Save your books from "Books Collection" and access them here..</p>
