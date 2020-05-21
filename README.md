@@ -4,7 +4,7 @@ Project Contributors:
 -   Aparna - [GitHub](https://github.com/aparna4scholas);
 -   Aleh Khvasko - [GitHub](https://github.com/AlehKhvasko);
 
-# This Project is built using React.
+# This Project is built using React JS.
 
 ## *Which 3rd party API's we used?*
 - https://jobs.github.com/api;
@@ -29,7 +29,6 @@ Project Contributors:
 - Search the world's most comprehensive index of full-text books. 
 
 ## *Wireframe:*
-
 ![0. LandingPage](https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image1.png)
 ==================
 ![1. Navbar(Menu)](https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image2.png)
