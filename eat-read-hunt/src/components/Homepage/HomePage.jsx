@@ -1,10 +1,5 @@
 import React from 'react';
-// import recipe from '../../assets/Homepage/chorizo-mozarella-gnocchi-bake-cropped.png';
-// import book from '../../assets/Homepage/book.png';
-// import jobSearch from '../../assets/Homepage/jobSearch.png';
 import '../../styles/Homepage/HomePage.scss';
-
-// import AllJobs from '../Daler/AllJobs';
 
 export default function HomePage() {
     return (
