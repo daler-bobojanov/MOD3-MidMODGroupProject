@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-// import SearchForm from './components/Aleh/SearchForm';
+
 import SearchForm from './SearchForm';
-// import Button from './components/Aleh/Button';
 import Button from './Button';
-// import Block from './components/Aleh/Block';
 import Block from './Block';
 import styled from 'styled-components';
-// import Error from './components/Aleh/Error';
 import Error from './Error';
-import { Link, BrowserRouter } from 'react-router-dom';
+// import { Link, BrowserRouter } from 'react-router-dom';
 import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button';
 
 //API key sent in Webex
@@ -60,22 +57,24 @@ text-shadow:6px 6px 3px black;
   align-items:flex-start;
   text-align:center;
 `
-  const StyledHeader = styled.div`
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    font-size:2rem;
-    text-decoration:none;
-    text-align:center;
-    font-size:1.5em;
-    color:white;
-    text-shadow:2px 2px 1px black;
-    border:4px solid black;
-    background-image:url('https://i.pinimg.com/736x/81/4d/e8/814de875dcd72f4398fb42965fd11a83.jpg'); 
-    height:15vh;
-    width:100vw;
-    margin:0;
-`
+  /*
+    const StyledHeader = styled.div`
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+      font-size:2rem;
+      text-decoration:none;
+      text-align:center;
+      font-size:1.5em;
+      color:white;
+      text-shadow:2px 2px 1px black;
+      border:4px solid black;
+      background-image:url('https://i.pinimg.com/736x/81/4d/e8/814de875dcd72f4398fb42965fd11a83.jpg'); 
+      height:15vh;
+      width:100vw;
+      margin:0;
+  `
+  */
   const StyledTitle = styled.div`
   display: flex;
   justify-content:center;
