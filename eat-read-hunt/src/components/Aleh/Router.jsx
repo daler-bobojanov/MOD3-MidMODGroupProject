@@ -1,11 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Top from './Top';
-// import App from '../../App';
 import App from './App';
-
 import Motivation from './Motivation';
-
 
 
 export default function Router() {
