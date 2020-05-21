@@ -3,15 +3,14 @@
 }
 
 nav {
-
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 12vh;
   background-color:rgb(42,14, 199);
   color:white;
-
 }
+
 .navbar_link {
   width: 60%;
   display: flex;
@@ -19,20 +18,22 @@ nav {
   align-items: center;
   list-style: none;
 }
+
 .label_first {  
   margin: 20px;
   border-width: 50px;
 }
+
 .div_first {    
   margin: 60px auto;
   width: 60%;
 }
-.div_second {
 
+.div_second {
   margin: 30px;
 }
-.button1 {
 
+.button1 {
 width: 60px;
 height: 4px;
 }
