@@ -1,18 +1,8 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-// import HomePage from './HomePage';
 import NavBarModalContent from './NavBarModalContent';
-// import Navbar from '../Daler/Navbar';
-
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-
-// import AllJobs from '../Daler/AllJobs';
-// import MySavedJobs from '../Daler/MySavedJobs';
-// import Logo from '../Daler/Logo';
-// import TechNews from '../Daler/TechNews';
-
 import '../../styles/Homepage/NavbarModal.css';
-
 
 Modal.setAppElement('#root')
 
@@ -21,6 +11,7 @@ const NavbarModal = (props) => {
 
     return (
         <React.Fragment>
+            {/* Hamburger Menu */}
             <div id="">
                 <ul id='navigation' onClick={() => setmodalIsOpen(true)}>
                     {/* <label htmlFor="navBar" style={{ float: 'right', paddingRight: '1100px', paddingTop: '6px' }}>Navigation</label> */}
@@ -68,7 +59,6 @@ const NavbarModal = (props) => {
                 }
             >
                 <Router>
-
                     <div id="homepage-modal-header">
                         <div id="closebtn" onClick={() => setmodalIsOpen(false)}>X</div>
                         <div id="chapter-text"><span>SITE NAVIGATION</span></div>
@@ -76,36 +66,8 @@ const NavbarModal = (props) => {
                             <div id="homebtn"> Home</div>
                         </Link>
                     </div>
-
-
-
-
-
                 </Router>
                 <NavBarModalContent />
-                {/* <Router>
-                    <nav>
-                        <ul className="nav-links">
-                            <li onClick={this.refreshPage}>
-
-                                <Link className="link" to="/"><img src={homeBtn} id='nav-img' alt="home-button" /></Link>
-                            </li>
-                            <li>
-                                <Link className="link" to="/alljobs/#alljobs" target="_top">All jobs</Link>
-                            </li>
-                            <li>
-                                <Link className="link" to="/mysavedjobs/#mysavedjobs" target="_top">My Saved jobs</Link>
-                            </li>
-                            <li>
-                                <Link className="link" to="/technews/#technews" target="_top">Tech News</Link>
-                            </li>
-                            <li>
-                                User Name
-                                </li>
-                        </ul>
-                    </nav>
-                    <Router /> */}
-
             </Modal >
         </React.Fragment >
     );
