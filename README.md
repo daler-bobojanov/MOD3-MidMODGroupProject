@@ -6,6 +6,9 @@ Project Contributors:
 
 # This Project is built using React JS.
 
+## Publicly Deployed Website:
+[eat-read-hunt.surge.sh](http://eat-read-hunt.surge.sh/);
+
 ## *Which 3rd party API's we used?*
 - https://jobs.github.com/api;
 - https://newsapi.org;
@@ -32,6 +35,8 @@ Project Contributors:
 ![0. LandingPage](https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image1.png)
 ==================
 ![1. Navbar(Menu)](https://github.com/daler-bobojanov/MOD3-MidMODGroupProject/blob/Daler/wireframe/image2.png)
+
+
 
 
 
