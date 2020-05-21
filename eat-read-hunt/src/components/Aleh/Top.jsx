@@ -2,7 +2,7 @@ import React from 'react';
 import TopStateless from './TopStateless';
 import styled from 'styled-components';
 import TopHeader from './TopHeader';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { CircleArrow as ScrollUpButton } from 'react-scroll-up-button';
 
 
@@ -33,7 +33,7 @@ const StyledHeader = styled.div`
     border:4px solid black;
     background-image:url('https://i.pinimg.com/736x/81/4d/e8/814de875dcd72f4398fb42965fd11a83.jpg');  
 `;
-
+/*
 const ButtonStyled = styled.button`
     display: flex;
     justify-content:center;
@@ -57,7 +57,7 @@ const ButtonStyled = styled.button`
     border:2.9px solid orangered;
 }
 `;
-
+*/
 export default function Top() {
     return (
         <StyledMain>
