@@ -7,23 +7,24 @@ import NavbarModal from './components/Homepage/NavbarModal';
 // ===========================================================
 
 // Aleh's App imports
-import AlehApp from './components/Aleh/App';
+// import AlehApp from './components/Aleh/App';
 //=============================================================
 
 // Aparna's App imports
-import AparnaApp from './components/Aparna/App';
+// import AparnaApp from './components/Aparna/App';
 
 function App() {
   return (
     <div className="">
+      {/* Daler's App */}
       <NavbarModal />
+      <Navbar />
       {/* <MySavedJobs /> */}
       {/* <HomePage /> */}
-      <Navbar />
-
+      {/* ========================== */}
       {/* Aleh's App */}
       {/* <AlehApp /> */}
-
+      {/* ========================== */}
       {/* Aparna's App */}
       {/* <AparnaApp /> */}
     </div>
