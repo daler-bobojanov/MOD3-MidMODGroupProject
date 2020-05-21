@@ -1,47 +1,18 @@
-// @import url(https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,500;1,300&display=swap);
+
 @import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Sriracha&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Playfair+Display:ital@1&family=Sriracha&display=swap);
 
 $border: 2px solid rgba(128, 128, 128, 0.471);
 $border-black: 2px solid rgba(57, 55, 55, 0.471);
 
-.mainContainer {
-    // background-color: black;
-    // height: 100vh;
-    // width: 100vw;
-    
-} 
-/*
-.navTop {
-    display: flex;
-    width: 100vw;
-    margin: 2%;
-
-
-    div {
-    //    padding: .5%;
-    //    border: $border;
-       &:hover {
-        // box-shadow: 2px 2px 2px 4px rgb(122, 127, 122);
-        // box-shadow: 0px 0px 20px rgba(135, 152, 160, 1);
-
-    }
-    }
-}
-*/
 .container1 {
     display: flex;
-    // flex-flow: row;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: space-between;
-    // height: 100%;
     width: 90vw;
     gap: 2%;
-    // text-align: center;
     margin: 0 auto;
-    
-    
     
     
     .leftContainer {
@@ -54,13 +25,8 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
             display: flex;
             flex-direction: column;
             justify-content: center;
-            // width: 50%;
-            // height: 80%;
-            // margin:10px auto;
             padding: 50px;
-            // font-family: 'Exo', sans-serif;
             font-family: 'Playfair Display', serif;
-            // font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-style: italic;
             font-size: 1rem;
             color: white;
@@ -68,10 +34,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
     }
 
     .rightContainer {
-        
-        
-        // justify-content: space-between;
-        // padding: 1%;
         width: 100%;
         margin: 10px auto;
     }
@@ -85,13 +47,11 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
     width: 100%;
     height: 21vh;
     padding: 1%;
-    // font-family: 'DM Mono', monospace;
     font-family: 'Sriracha', cursive;
     background-color: whitesmoke;
     margin: 8px;
 
     &:hover {
-        // box-shadow:4px 4px 4px 8px rgb(122, 127, 122);
         box-shadow: 0px 0px 28px 8px rgba(135, 152, 160, 1);
     }
 
@@ -104,20 +64,14 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
         display: flex;
         flex-flow: column;
         justify-content: space-around;
-        
-        // padding: 1px;
         width: 60%;
         height: 100;
 
         p {
             font-size: 1em;
             line-height: normal;
-            // font-family: 'Playfair Display', serif;
             font-family: 'Exo', sans-serif;
             color: black;
-            // padding-left: 8px;
-            // text-align: center;
-            
         }
     }
 
@@ -127,9 +81,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
     font-weight: 600;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
-    // margin-top: 2em;
-    // margin-bottom: 2em;
-    
 }
 
 #modal-chapter-titles {
@@ -138,8 +89,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    // width: 90%;
-    // margin-left: 273px;
 
     ul {
         display: block;
@@ -148,7 +97,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
         margin-inline-start: 100px;
         margin-inline-end: 100px;
         padding-inline-start: 400px;
-        // border: 1px red solid;
         
     }
 
@@ -159,7 +107,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
         text-decoration: none;
         list-style-type: none;
         color: white;
-        // text-align: left;  
         cursor: pointer;  
         display: list-item;
         font-family: 'Playfair Display', serif;
@@ -174,8 +121,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
 #daler-block {
     position: fixed;
     top: 185px;
-    // bottom: 10px;
-    // right: 5px;
     left: 50px;
     width: 30%;
 }
@@ -183,7 +128,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
 #aleh-block {
     position: fixed;
     top: 185px;
-    // bottom: 10px;
     right: 5px;
     left: 10px;
     width: 30%;
@@ -192,8 +136,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
 #aparna-block {
     position: fixed;
     top: 185px;
-    // bottom: 10px;
-    // right: -10px;
     left: 950px;
     width: 30%;
 }
@@ -209,8 +151,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
     #daler-block {
         position: fixed;
         top: 220px;
-        // bottom: 10px;
-        // right: 5px;
         left: 50px;
         width: 30%;
     }
@@ -218,7 +158,6 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
     #aleh-block {
         position: fixed;
         top: 220px;
-        // bottom: 10px;
         right: 5px;
         left: 10px;
         width: 30%;
@@ -227,12 +166,7 @@ $border-black: 2px solid rgba(57, 55, 55, 0.471);
     #aparna-block {
         position: fixed;
         top: 220px;
-        // bottom: 10px;
-        // right: -10px;
         left: 1280px;
         width: 30%;
     }
 }
-// onMouseOut={() => document.getElementById('daler-block').style.display = 'none'}
-// onMouseOut={() => document.getElementById('aleh-block').style.display = 'none'}
-// onMouseOut={() => document.getElementById('aparna-block').style.display = 'none'}
